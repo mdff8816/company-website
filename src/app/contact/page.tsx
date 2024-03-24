@@ -44,7 +44,6 @@ const Contact = () => {
                 <label className="mb-5 py-2 text-sm uppercase">Message</label>
                 <textarea
                   className="rounded-lg border-2 border-gray-300 p-3"
-                  rows="10"
                   name="message"
                 />
               </div>
