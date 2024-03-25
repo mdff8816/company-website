@@ -9,6 +9,7 @@ const Overview = () => {
           alt="boat"
           width={1440}
           height={580}
+          loading="lazy"
           className="w-full object-cover object-center 2xl:rounded-2xl "
         />
         <Image
@@ -16,6 +17,7 @@ const Overview = () => {
           alt="boat"
           width={1440}
           height={580}
+          loading="lazy"
           className="w-full object-cover object-center 2xl:rounded-2xl"
         />
       </div>
@@ -42,6 +44,7 @@ const Overview = () => {
             alt="quote2"
             width={186}
             height={219}
+            loading="lazy"
             className="camp-quote"
           />
         </div>

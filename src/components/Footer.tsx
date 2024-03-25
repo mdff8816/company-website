@@ -22,6 +22,7 @@ const Footer = () => {
                         alt={link.name}
                         width={24}
                         height={24}
+                        loading="lazy"
                       />
                     </a>
                   </li>

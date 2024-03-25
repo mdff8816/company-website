@@ -11,6 +11,7 @@ const Hero = () => {
                 alt="close"
                 width={1440}
                 height={580}
+                loading="lazy"
                 className="rounded-lg transition duration-300 ease-in-out hover:scale-110"
               />
 

@@ -12,6 +12,7 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ images }) => {
           <img
             src={image}
             alt={`Image ${index + 1}`}
+            loading="lazy"
             className="w-full border border-solid hover:border-green-500 rounded-md transition-transform duration-300 transform hover:scale-110"
           />
         </div>

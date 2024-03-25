@@ -4,6 +4,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Navbar";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const roboto = Roboto({
   weight: '400',
@@ -26,7 +27,9 @@ export default function RootLayout({
         <nav>
           <Header />
         </nav>
-        <main className="relative overflow-hidden">{children}</main>
+        <main className="relative overflow-hidden">{children}
+        </main>
+        <SpeedInsights />
         <Footer />
         <ScrollToTopButton />
       </body>

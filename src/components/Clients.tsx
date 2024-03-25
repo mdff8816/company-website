@@ -16,18 +16,18 @@ const Clients = () => {
           src="/counter-strike-global-offensive-2-logo-svgrepo-com.svg"
           className="h-12 w-12"
         />
-        <img src="/facebook-2-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/git-icon-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/instagram-2016-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/mcdonald-s-15-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/netflix-1-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/pubg-1-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/youtube-icon-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/coca-cola-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/microsoft-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/tinder-1-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/amazon-icon-logo-svgrepo-com.svg" className="h-12 w-12" />
-        <img src="/visa-logo-svgrepo-com.svg" className="h-12 w-12" />
+        <img src="/facebook-2-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
+        <img src="/git-icon-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
+        <img src="/instagram-2016-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
+        <img src="/mcdonald-s-15-logo-svgrepo-com.svg"loading="lazy" className="h-12 w-12" />
+        <img src="/netflix-1-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
+        <img src="/pubg-1-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
+        <img src="/youtube-icon-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
+        <img src="/coca-cola-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
+        <img src="/microsoft-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
+        <img src="/tinder-1-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
+        <img src="/amazon-icon-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
+        <img src="/visa-logo-svgrepo-com.svg" loading="lazy" className="h-12 w-12" />
       </div>
     </div>
   );

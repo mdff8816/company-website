@@ -43,7 +43,7 @@ const RandomUserCarousel = () => {
       {users.map(user => (
         <div key={user.id} className="border border-gray-200 p-4 rounded-md shadow-md flex flex-col items-center w-80 sm:w-auto">
           <div className="flex-shrink-0 transition duration-300 ease-in-out hover:scale-110">
-            <img src={user.picture.large} alt={`${user.name.first} ${user.name.last}`} className="rounded-lg w-64 h-64" />
+            <img src={user.picture.large} alt={`${user.name.first} ${user.name.last}`} loading="lazy" className="rounded-lg w-64 h-64" />
           </div>
           <div className="mt-4 text-center">
             <h2 className="text-xl font-bold">{`${user.name.first} ${user.name.last}`}</h2>

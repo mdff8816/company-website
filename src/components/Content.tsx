@@ -8,7 +8,8 @@ const Content = () => {
         <div className="flex items-center max-container relative w-full">
           <Image
             src="/ilust-3.png"
-            alt="boat"
+            alt="error"
+            loading="lazy"
             width={1440}
             height={580}
             className="w-full object-cover object-center 2xl:rounded-3xl"
